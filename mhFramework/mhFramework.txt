@@ -1,0 +1,11 @@
+## Title: Mostly Harmless's Simple Addon Framework
+## SavedVariables: mhFrameworkData
+
+mhFramework.xml
+mhFramework.lua
+mhFramework.globals.lua
+mhFramework.Util.lua
+mhFramework.Windows.lua
+mhFramework.Controls.lua
+mhFramework.Labels.lua
+mhFramework.SavedVariables.lua
