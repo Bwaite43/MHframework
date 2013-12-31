@@ -1,0 +1,19 @@
+<GuiXml>
+<Controls>
+<TopLevelControl name="mhBagSpace" mouseEnabled="true" movable="false">
+<Dimensions x="100" y="20" />
+<Anchor point="BOTTOMLEFT" />
+<OnUpdate>
+BagSpace()
+</OnUpdate>
+<Controls>
+<Label name="$(parent)Label" font="ZoFontGame" color="00FF00" wrapMode="ELLIPSIS" verticalAlignment="LEFT" text="">
+</Label>
+<Label name="$(parent)HQ" font="ZoFontGame" color="00FFFF" wrapMode="ELLIPSIS" verticalAlignment="LEFT" text="">
+</Label>
+<Label name="$(parent)FPS" font="ZoFontGame" color="00FFFF" wrapMode="ELLIPSIS" verticalAlignment="LEFT" text="">
+</Label>
+</Controls>
+</TopLevelControl>
+</Controls>
+</GuiXml>
