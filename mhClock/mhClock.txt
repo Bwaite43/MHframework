@@ -1,4 +1,4 @@
-## Title: MH BagSpace
+## Title: MH Clock
 
 mhClock.lua
 mhClock.xml
