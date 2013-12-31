@@ -13,9 +13,6 @@ local Ready = function() return (addonReady and mhf.Ready); end
 function BagSpace()
 local iconTrash, totalBagSpace = GetBagInfo(BAG_BACKPACK)
 local usedBagSpace = 0
--- Parent frame set
-local parent 	= _G[frame]
-
 
  for i = totalBagSpace, 0, -1 do
 	usedBagSpace = i
@@ -42,14 +39,14 @@ local freeBagSpace = totalBagSpace - usedBagSpace
  local fps = GetFramerate()
  
 mhBagSpaceLabel:SetText(string.format("%d / %d", freeBagSpace, totalBagSpace))
-mhBagSpaceLabel:SetAnchor(BOTTOMLEFT,parent,BOTTOMLEFT,25,-10)
+mhBagSpaceLabel:SetAnchor(BOTTOMLEFT,TopLevelWindow,BOTTOMLEFT,25,-10)
 mhBagSpaceLabel:SetColor(0,255,0,20)
-mhBagSpaceHQ:SetAnchor(BOTTOMLEFT,parent,BOTTOMLEFT,100,-10)
+mhBagSpaceHQ:SetAnchor(BOTTOMLEFT,TopLevelWindow,BOTTOMLEFT,100,-10)
 mhBagSpaceHQ:SetText(string.format("HQ:%d", itemHighQuality))
 
 --Add FPS for Holicori
 mhBagSpaceFPS:SetText(string.format("FPS:%d", fps))
-mhBagSpaceFPS:SetAnchor(BOTTOMLEFT,parent,BOTTOMLEFT,175,-10)
+mhBagSpaceFPS:SetAnchor(BOTTOMLEFT,TopLevelWindow,BOTTOMLEFT,175,-10)
 
 end
 
