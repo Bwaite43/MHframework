@@ -1,0 +1,9 @@
+## Title: Mostly Harmless's Quest Tools
+## SavedVariables: mhQuest
+## APIVersion: 100000
+mhQuest.lua
+mhQuest.Methods.lua
+mhQuest.CommandLine.lua
+mhQuest.UserInterface.lua
+mhQuest.Startup.lua
+mhQuest.Events.lua

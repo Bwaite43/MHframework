@@ -1,0 +1,1 @@
+EVENT_MANAGER:RegisterForEvent(mhq.AddonID, EVENT_ADD_ON_LOADED, mhq.StartUp)EVENT_MANAGER:RegisterForEvent(mhq.AddonID, EVENT_QUEST_ADDED, mhq.QuestAdded)

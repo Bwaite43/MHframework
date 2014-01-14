@@ -1,0 +1,12 @@
+<GuiXml>
+	<Controls>
+		<TopLevelControl name="mhExpLog" mouseEnabled="true" movable="true">
+			<Dimensions x="100" y="20" />
+			<Anchor point="TOPLEFT" />
+			<Controls>
+				<Label name="$(parent)Label" font="ZoFontGame" color="00FF00" wrapMode="ELLIPSIS" verticalAlignment="LEFT" text="">
+				</Label>
+			</Controls>
+		</TopLevelControl>
+	</Controls>
+</GuiXml>
