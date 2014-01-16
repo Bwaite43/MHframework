@@ -1,4 +1,5 @@
-## Title: MH Clock
+## Title: Mostly Harmless's Clock
+## APIVersion: 100000
 
 mhClock.lua
 mhClock.xml

@@ -1,4 +1,4 @@
-## Title: MH BagSpace
-
+## Title: Mostly Harmless's Bag Space
+## APIVersion: 100000
 mhBagSpace.lua
 mhBagSpace.xml

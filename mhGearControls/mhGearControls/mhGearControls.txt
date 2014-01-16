@@ -1,0 +1,9 @@
+## Title: [MH] Gear Controls
+## SavedVariables: mhGearControls
+## APIVersion: 100000
+mhGearControls.lua
+mhGearControls.Globals.lua
+mhGearControls.Methods.lua
+mhGearControls.Queue.lua
+mhGearControls.Startup.lua
+mhGearControls.SavedVariables.lua
